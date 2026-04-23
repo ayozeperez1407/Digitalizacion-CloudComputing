@@ -1,4 +1,5 @@
 public class SensorData {
+
     private final String DEVICEID;
     private final double TEMPERATURE;
 
@@ -17,7 +18,7 @@ public class SensorData {
 
     @Override
     public String toString(){
-        return "Device: " + DEVICEID + " Temp: " + String.format("%.2f", TEMPERATURE);
+        return "Device: " + DEVICEID +
+               " Temp: " + String.format("%.2f", TEMPERATURE);
     }
-
 }
